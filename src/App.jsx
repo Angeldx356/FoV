@@ -23,14 +23,10 @@ function App({ texto }) {
         </button>
         <button
           onClick={() => {
-            if (estado == "Verdadero") {
-              setEstado("Falso");
-            } else if (estado == "Falso") {
-              setEstado("Verdadero");
-            }
+            Alert("Este programa es publico ajeno a cualquier partido politico queda prohibido para sus usos distintos a los establecidos en el programa")
           }}
         >
-          Cambiar Estado
+         Alert
         </button>
         <Boton>
           //! Esta madre es un boton de la clase Boton
