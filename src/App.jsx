@@ -23,7 +23,7 @@ function App({ texto }) {
         </button>
         <button
           onClick={() => {
-            alert("Este programa es publico ajeno a cualquier partido politico queda prohibido para sus usos distintos a los establecidos en el programa")
+            alert("Este programa es publico ajeno a cualquier partido politico queda prohibido para sus usos distintos a los establecidos en el programa");
           }}
         >
          Alert
