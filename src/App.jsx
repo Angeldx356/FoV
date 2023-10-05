@@ -21,6 +21,17 @@ function App({ texto }) {
         >
           Cambiar Estado
         </button>
+        <button
+          onClick={() => {
+            if (estado == "Verdadero") {
+              setEstado("Falso");
+            } else if (estado == "Falso") {
+              setEstado("Verdadero");
+            }
+          }}
+        >
+          Cambiar Estado
+        </button>
         <Boton>
           //! Esta madre es un boton de la clase Boton
         </Boton>
